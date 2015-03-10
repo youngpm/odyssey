@@ -1,0 +1,106 @@
+Scientific Programming
+10 March 2015
+Tags: python gis
+
+Patrick Young
+Research Scientist, DigitalGlobe
+patrick.young@digitalglobe.com
+
+* About Me
+
+- I first started programming in high school (my school offered some Visual Basic and Java classes)
+- In college I majored in math and physics; I took a computational physics class which really got me excited about computational science and being able to model the real world with software
+- I got my PhD in Applied Mathematics at CU, my thesis was all about solving integral equations with computers
+- I now work at DigitalGlobe, we do a lot of image processing and computer vision
+
+* Scientific Computing
+
+Programming is used everywhere these days, I specialize in *scientific* *computing*, which is
+
+- Using math and computer science together to create algorithms that solve problems with computers that cannot be solved by hand
+- Making these algorithms run as fast as possible, sometimes on huge super computers
+
+For example, scientific computing is used to 
+
+- find faces in pictures quickly
+- design an airplane on a computer and know it will fly before we build it
+- make pretty graphics in movies and video games
+- model how galaxies form and stars collapse
+- Search for web pages, translate text, mak recommendations
+
+* Heat Conduction
+
+.image images/conduction1.png _ 1000
+
+* Scattering Problems
+
+.image images/scattering1.png _ 800
+
+* DigitalGlobe
+
+- Four Earth observing satellites providing foundational imagery that many GIS layers are built on top of
+- We collect millions of square kilometers of high resolution (up to 0.25 m) imagery a day
+- Our archive contains over a billion square kilometers of pixels!
+
+.image images/fuji.jpg _ 600
+
+Creating Huge Mosaics
+
+- A mosaic is composed of thousands of strips, each strip on the order of 20km x 100km in size at 0.5m resolution
+- We match the tones of all the strips, and create "smart" seamlines at the boundaries
+- Much of this processing is done in Python, and dropping to Cython when necessary
+
+* Mosaics
+
+.image images/iran1.png _ 700 
+
+* Mosaics
+
+.image images/iran2.png _ 550 
+
+* Mosaics
+
+.image images/iran3.png _ 600 
+
+* Mosaics
+
+.image images/iran4.png _ 600 
+
+* Mosaics
+
+.image images/iran5.png _ 600 
+
+* Mosaics
+
+.image images/permian1.png _ 500 
+
+* Mosaics
+
+.image images/permian2.png _ 500 
+
+* Mosaics
+
+.image images/permian4.png _ 700 
+
+* Mosaics
+
+.image images/permian3.png _ 700 
+
+* Mosaics
+
+.image images/permian5.png _ 700 
+
+* Mosaics
+
+.image images/permian6.png _ 700 
+
+* Mosaics
+
+.image images/permian7.png _ 700 
+
+* Mosaics
+
+.image images/permian8.png _ 700 
+
+
+

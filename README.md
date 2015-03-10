@@ -1,0 +1,1 @@
+These slides are made with Go's [present](https://godoc.org/golang.org/x/tools/present).  You can clone and spin up present, or view them right away by visiting [here](http://go-talks.appspot.com/github.com/youngpm/odyssey/odyssey.slide#1).
